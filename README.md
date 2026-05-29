@@ -1,52 +1,65 @@
-# 🚀 Cognizant Digital Nurture 5.0 - Java FSE
+# Cognizant Digital Nurture 5.0 Upskilling
 
-This repository contains my solutions, assignments, hands-on exercises, and learning materials completed as part of the Cognizant Digital Nurture 5.0 Java Full Stack Engineer program.
+This repository contains solutions and assessments completed as part of the Cognizant Digital Nurture 5.0 Java FSE Upskilling Program.
 
----
+## Modules Completed
 
-## 📚 Modules Covered
+### Module 1
 
-### Core Java
-- OOP Concepts
-- Collections Framework
-- Exception Handling
-- Multithreading
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript
 
-### SQL & Database
-- ANSI SQL
-- Joins
-- Subqueries
-- PL/SQL
+### Module 2
 
-### Design Patterns
-- Singleton
-- Factory Pattern
-- MVC Architecture
+* ANSI SQL Using MySQL
 
-### Spring Framework
-- Spring Core
-- Spring Boot
-- Spring Data JPA
-- Hibernate
+### Module 3
 
-### Web Technologies
-- HTML
-- CSS
-- JavaScript
+* Core Java
 
----
+## Repository Structure
 
-## 🛠 Technologies Used
+```text
+Java FSE
+└── Upskilling
+    ├── Module 1-HTML 5
+    ├── Module 1-CSS3
+    ├── Module 1-Bootstrap5
+    ├── Module 1-JavaScript
+    ├── Module 2-ANSI SQL Using MySQL
+    └── Module 3-Core Java
+```
 
-- Java
-- SQL
-- Spring Boot
-- Maven
-- Hibernate
-- Git & GitHub
+## Technologies Used
 
----
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript
+* MySQL
+* Java
+* Git
+* GitHub
 
-## 🎯 Objective
+## Development Tools
 
-To strengthen Java Full Stack Development skills through structured learning, coding exercises, and real-world implementation projects under the Cognizant Digital Nurture program.
+* Visual Studio Code
+* MySQL Workbench
+* IntelliJ IDEA
+* Git
+
+## Learning Outcomes
+
+* Built responsive web pages using HTML5, CSS3, and Bootstrap 5.
+* Implemented interactive web applications using JavaScript.
+* Designed and executed SQL queries using MySQL.
+* Developed Java applications covering core programming concepts.
+* Practiced version control using Git and GitHub.
+
+## Author
+
+**Varshini Keerthi**
+
+GitHub: https://github.com/Varshini-0212
