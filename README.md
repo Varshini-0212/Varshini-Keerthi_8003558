@@ -4,18 +4,18 @@ This repository contains solutions and assessments completed as part of the Cogn
 
 ## Modules Completed
 
-### Module 1
+ Module 1 – Frontend Development
 
 * HTML5
 * CSS3
 * Bootstrap 5
 * JavaScript
 
-### Module 2
+ Module 2 – Database Programming### Module 2
 
 * ANSI SQL Using MySQL
 
-### Module 3
+ Module 3 – Core Java
 
 * Core Java
 
@@ -57,6 +57,9 @@ Java FSE
 * Designed and executed SQL queries using MySQL.
 * Developed Java applications covering core programming concepts.
 * Practiced version control using Git and GitHub.
+## Objective
+
+The objective of this upskilling program is to strengthen Full Stack Development skills through structured learning, practical assignments, coding exercises, and industry-oriented projects.
 
 ## Author
 
