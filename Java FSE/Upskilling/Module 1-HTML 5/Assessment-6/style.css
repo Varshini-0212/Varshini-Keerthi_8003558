@@ -1,0 +1,114 @@
+/* Body */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f9;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 30px;
+}
+
+/* Container */
+
+.container {
+
+    background-color: white;
+
+    width: 500px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+
+h1 {
+
+    text-align: center;
+
+    color: #1e3a8a;
+}
+
+/* Labels */
+
+label {
+
+    font-weight: bold;
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+}
+
+/* Button */
+
+button {
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px;
+
+    width: 100%;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+/* Hover */
+
+button:hover {
+
+    background-color: #1d4ed8;
+}
+
+/* Image */
+
+img {
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    display: block;
+
+    margin: auto;
+
+    transition: 0.3s;
+}
+
+/* Paragraph */
+
+p {
+
+    font-weight: bold;
+}

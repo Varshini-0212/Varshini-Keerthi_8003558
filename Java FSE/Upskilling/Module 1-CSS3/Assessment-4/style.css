@@ -1,0 +1,86 @@
+/* =========================
+   Body Styling
+========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    /* Fallback Color */
+
+    background-color: #dbeafe;
+
+    /* Background Image */
+
+    background-image: url("background.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+
+/* =========================
+   Header Styling
+========================= */
+
+header {
+
+    background: linear-gradient(
+        to right,
+        #2563eb,
+        #1e3a8a
+    );
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+/* =========================
+   Section Styling
+========================= */
+
+section {
+
+    width: 70%;
+
+    margin: 50px auto;
+
+    padding: 30px;
+
+    background-color: rgba(255,255,255,0.8);
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   Heading
+========================= */
+
+h2 {
+
+    color: #1e3a8a;
+}
+
+/* =========================
+   Paragraph
+========================= */
+
+p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    color: #333;
+}

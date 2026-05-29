@@ -1,0 +1,141 @@
+/* =========================
+   Body Styling
+========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f9;
+
+    margin: 0;
+}
+
+/* =========================
+   Navigation Styling
+========================= */
+
+nav {
+
+    background-color: #1e3a8a;
+
+    padding: 15px;
+}
+
+/* =========================
+   Navigation Menu
+========================= */
+
+.nav-menu {
+
+    list-style-type: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+/* =========================
+   List Items
+========================= */
+
+.nav-menu li {
+
+    margin: 0 20px;
+}
+
+/* =========================
+   Link Styling
+========================= */
+
+/* Default Link */
+
+a:link {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+/* Visited Link */
+
+a:visited {
+
+    color: lightgray;
+}
+
+/* Hover Effect */
+
+a:hover {
+
+    color: yellow;
+
+    text-decoration: underline;
+}
+
+/* Active Link */
+
+a:active {
+
+    color: red;
+}
+
+/* =========================
+   Section Styling
+========================= */
+
+section {
+
+    background-color: white;
+
+    width: 500px;
+
+    margin: 40px auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Heading
+========================= */
+
+h1 {
+
+    color: #1e3a8a;
+
+    margin-bottom: 20px;
+}
+
+/* =========================
+   Event List
+========================= */
+
+.event-list {
+
+    list-style-type: square;
+
+    list-style-position: inside;
+}
+
+/* Event Items */
+
+.event-list li {
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    background-color: #eef2ff;
+
+    border-radius: 5px;
+}

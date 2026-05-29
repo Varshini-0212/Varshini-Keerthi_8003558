@@ -1,0 +1,245 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f7fa;
+
+    color: #333;
+
+    padding: 20px;
+
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+nav {
+
+    background-color: #1e3a8a;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+}
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin-right: 15px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+
+    color: yellow;
+}
+
+/* Headings */
+
+h1 {
+
+    color: #1e3a8a;
+
+    margin-bottom: 15px;
+}
+
+h2 {
+
+    color: #2563eb;
+
+    margin-bottom: 10px;
+}
+
+/* Sections */
+
+section {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+
+form {
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 350px;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+/* Buttons */
+
+button,
+input[type="submit"] {
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 15px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+
+    background-color: #1d4ed8;
+}
+
+/* Table */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+table td,
+table th {
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+/* Images */
+
+img {
+
+    border-radius: 8px;
+
+    transition: transform 0.3s;
+}
+
+img:hover {
+
+    transform: scale(1.05);
+}
+
+/* Footer */
+
+footer {
+
+    background-color: #1e3a8a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+/* Highlight */
+
+.highlight {
+
+    background-color: yellow;
+
+    padding: 5px;
+}
+
+/* Welcome Banner */
+
+#welcomeBanner {
+
+    background-color: #2563eb;
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        padding: 10px;
+    }
+
+    form {
+
+        width: 100%;
+    }
+
+    nav {
+
+        text-align: center;
+    }
+
+    nav a {
+
+        display: block;
+
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,33 @@
+body {
+
+    font-family: Arial;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+input {
+
+    width: 250px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+}
+
+#message {
+
+    margin-top: 20px;
+
+    font-weight: bold;
+
+}

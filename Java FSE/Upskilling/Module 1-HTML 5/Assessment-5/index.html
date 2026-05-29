@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Event Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Community Event Registration</h1>
+
+        <form onsubmit="showMessage(); return false;">
+
+            <!-- Name -->
+
+            <label>Name</label>
+
+            <input
+                type="text"
+                placeholder="Enter your name"
+                required
+                autofocus>
+
+            <!-- Email -->
+
+            <label>Email</label>
+
+            <input
+                type="email"
+                placeholder="Enter your email"
+                required>
+
+            <!-- Date -->
+
+            <label>Event Date</label>
+
+            <input type="date" required>
+
+            <!-- Event Type -->
+
+            <label>Event Type</label>
+
+            <select required>
+
+                <option value="">
+                    Select Event
+                </option>
+
+                <option>
+                    Music Festival
+                </option>
+
+                <option>
+                    Sports Meet
+                </option>
+
+                <option>
+                    Food Carnival
+                </option>
+
+            </select>
+
+            <!-- Message -->
+
+            <label>Message</label>
+
+            <textarea
+                placeholder="Enter your message">
+            </textarea>
+
+            <!-- Submit -->
+
+            <button type="submit">
+                Register
+            </button>
+
+            <!-- Output -->
+
+            <output id="result"></output>
+
+        </form>
+
+    </div>
+
+    <script>
+
+        function showMessage() {
+
+            document.getElementById("result").innerHTML =
+            " Registration Successful!";
+
+        }
+
+    </script>
+
+</body>
+</html>

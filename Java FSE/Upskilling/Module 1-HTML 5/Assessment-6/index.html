@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Event Feedback</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Event Feedback Form</h1>
+
+        <!-- Phone Number -->
+
+        <label>Phone Number</label>
+
+        <input
+            type="text"
+            id="phone"
+            placeholder="Enter phone number"
+            onblur="validatePhone()">
+
+        <!-- Event Selection -->
+
+        <label>Select Event</label>
+
+        <select onchange="showFee(this.value)">
+
+            <option value="">
+                Select Event
+            </option>
+
+            <option value="100">
+                Music Festival
+            </option>
+
+            <option value="200">
+                Sports Meet
+            </option>
+
+            <option value="150">
+                Food Carnival
+            </option>
+
+        </select>
+
+        <!-- Fee Display -->
+
+        <p id="fee"></p>
+
+        <!-- Submit -->
+
+        <button onclick="confirmSubmission()">
+
+            Submit Feedback
+
+        </button>
+
+        <!-- Image -->
+
+        <h2>Double Click Image</h2>
+
+        <img
+            src="event.jpg"
+            id="eventImage"
+            ondblclick="enlargeImage()">
+
+        <!-- Feedback -->
+
+        <h2>Feedback</h2>
+
+        <textarea
+            id="feedback"
+            placeholder="Enter feedback"
+            onkeyup="countCharacters()">
+        </textarea>
+
+        <!-- Character Count -->
+
+        <p id="count">
+            Characters: 0
+        </p>
+
+    </div>
+
+    <script>
+
+        /* Validate Phone */
+
+        function validatePhone() {
+
+            let phone =
+            document.getElementById("phone").value;
+
+            if(phone.length < 10) {
+
+                alert("Invalid Phone Number");
+
+            }
+            else {
+
+                alert("Phone Number Valid");
+
+            }
+        }
+
+        /* Show Fee */
+
+        function showFee(value) {
+
+            document.getElementById("fee").innerHTML =
+            "Event Fee: ₹" + value;
+
+        }
+
+        /* Submit */
+
+        function confirmSubmission() {
+
+            alert("Feedback Submitted Successfully!");
+
+        }
+
+        /* Double Click Image */
+
+        function enlargeImage() {
+
+            let img =
+            document.getElementById("eventImage");
+
+            img.style.width = "500px";
+
+        }
+
+        /* Character Counter */
+
+        function countCharacters() {
+
+            let text =
+            document.getElementById("feedback").value;
+
+            document.getElementById("count").innerHTML =
+            "Characters: " + text.length;
+
+        }
+
+    </script>
+
+</body>
+</html>

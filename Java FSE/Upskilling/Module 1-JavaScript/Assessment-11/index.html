@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        Event Registration Form
+    </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>
+        Community Event Registration
+    </h1>
+
+    <form id="registrationForm">
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Enter Name"
+        >
+
+        <br><br>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+        >
+
+        <br><br>
+
+        <select name="event">
+
+            <option value="">
+
+                Select Event
+
+            </option>
+
+            <option value="Music Festival">
+
+                Music Festival
+
+            </option>
+
+            <option value="Food Carnival">
+
+                Food Carnival
+
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <button type="submit">
+
+            Register
+
+        </button>
+
+        <p id="error"></p>
+
+    </form>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

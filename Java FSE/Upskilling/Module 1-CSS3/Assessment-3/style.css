@@ -1,0 +1,84 @@
+/* =========================
+   Universal Selector
+========================= */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* =========================
+   Body Styling
+========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f9;
+
+    padding: 20px;
+}
+
+/* =========================
+   Element Selector
+========================= */
+
+h2 {
+
+    color: #2563eb;
+
+    margin-bottom: 10px;
+}
+
+/* =========================
+   ID Selector
+========================= */
+
+#mainHeader {
+
+    background-color: #1e3a8a;
+
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    margin-bottom: 30px;
+}
+
+/* =========================
+   Class Selector
+========================= */
+
+.eventCard {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Grouping Selector
+========================= */
+
+h3,
+p {
+
+    color: #333;
+
+    line-height: 1.6;
+}

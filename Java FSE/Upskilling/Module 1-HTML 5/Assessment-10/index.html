@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Debugging with Chrome DevTools</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="heading">
+
+            Community Event Portal
+
+        </h1>
+
+        <p id="message">
+
+            Click the button to debug JavaScript.
+
+        </p>
+
+        <button onclick="changeContent()">
+
+            Click Me
+
+        </button>
+
+    </div>
+
+    <script>
+
+        function changeContent() {
+
+            console.log("Button Clicked");
+
+            let userName = "Varshini";
+
+            let eventName = "Music Festival";
+
+            debugger;
+
+            document.getElementById("heading").innerHTML =
+            "Welcome " + userName;
+
+            document.getElementById("message").innerHTML =
+            "Registered for " + eventName;
+
+        }
+
+    </script>
+
+</body>
+</html>

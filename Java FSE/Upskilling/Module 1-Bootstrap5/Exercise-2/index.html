@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Bootstrap Structure and Files
+    </title>
+
+    <!-- Bootstrap CSS -->
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+    <style>
+
+        body {
+
+            background-color: #eeb6b6;
+
+        }
+
+        .main-box {
+
+            background-color: white;
+
+            padding: 40px;
+
+            border-radius: 15px;
+
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <div class="main-box">
+
+            <h1 class="text-center text-primary mb-5">
+
+                Bootstrap Structure and JavaScript Plugins
+
+            </h1>
+
+            <div class="row g-4">
+
+                <!-- CSS Folder -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-primary shadow">
+
+                        <div class="card-body text-center">
+
+                            <h3 class="text-primary">
+
+                                CSS Folder
+
+                            </h3>
+
+                            <p>
+
+                                Contains Bootstrap styling files used for layouts,
+                                buttons, typography, grids, and responsive design.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- JS Folder -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-success shadow">
+
+                        <div class="card-body text-center">
+
+                            <h3 class="text-success">
+
+                                JS Folder
+
+                            </h3>
+
+                            <p>
+
+                                Contains Bootstrap JavaScript plugins for modals,
+                                carousel, navbar toggle, collapse, and accordion.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Icons Folder -->
+
+                <div class="col-md-4">
+
+                    <div class="card border-danger shadow">
+
+                        <div class="card-body text-center">
+
+                            <h3 class="text-danger">
+
+                                Icons Folder
+
+                            </h3>
+
+                            <p>
+
+                                Contains Bootstrap icon libraries used for menus,
+                                search icons, and social media icons.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="my-5">
+
+            <!-- Bootstrap JS Plugin Example -->
+
+            <div class="text-center">
+
+                <button
+                    class="btn btn-primary btn-lg"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#demo"
+                >
+
+                    Show Plugin Example
+
+                </button>
+
+                <div
+                    id="demo"
+                    class="collapse mt-4"
+                >
+
+                    <div class="alert alert-success">
+
+                        Bootstrap JavaScript plugins are working successfully using
+                        bootstrap.bundle.min.js
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>

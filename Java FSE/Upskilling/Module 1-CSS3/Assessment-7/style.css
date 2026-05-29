@@ -1,0 +1,103 @@
+/* =========================
+   Body Styling
+========================= */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f9;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding-top: 50px;
+}
+
+/* =========================
+   Container
+========================= */
+
+.container {
+
+    width: 80%;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   Heading
+========================= */
+
+h1 {
+
+    text-align: center;
+
+    color: #1e3a8a;
+
+    margin-bottom: 30px;
+}
+
+/* =========================
+   Table Styling
+========================= */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    text-align: center;
+}
+
+/* =========================
+   Table Header
+========================= */
+
+th {
+
+    background-color: #2563eb;
+
+    color: white;
+
+    padding: 15px;
+
+    border: 1px solid #ccc;
+}
+
+/* =========================
+   Table Data
+========================= */
+
+td {
+
+    padding: 15px;
+
+    border: 1px solid #ccc;
+}
+
+/* =========================
+   Zebra Striping
+========================= */
+
+tr:nth-child(even) {
+
+    background-color: #eef2ff;
+}
+
+/* =========================
+   Hover Effect
+========================= */
+
+tr:hover {
+
+    background-color: #dbeafe;
+}

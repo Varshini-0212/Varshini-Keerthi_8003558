@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Video Invite</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onbeforeunload="return showWarning()">
+
+    <div class="container">
+
+        <h1>Community Event Promo</h1>
+
+        <!-- Video -->
+
+        <video
+            id="promoVideo"
+            controls
+            width="600"
+            oncanplay="videoReady()">
+
+            <source
+                src="promo.mp4"
+                type="video/mp4">
+
+        </video>
+
+        <!-- Status Message -->
+
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+
+        /* Video Ready */
+
+        function videoReady() {
+
+            document.getElementById("message").innerHTML =
+            " Video ready to play";
+
+        }
+
+        /* Before Leaving Page */
+
+        function showWarning() {
+
+            return "Are you sure you want to leave this page?";
+
+        }
+
+    </script>
+
+</body>
+</html>

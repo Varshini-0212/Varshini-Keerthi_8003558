@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Geolocation Event Mapping</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Find Nearby Events</h1>
+
+        <!-- Button -->
+
+        <button onclick="findLocation()">
+
+            Find Nearby Events
+
+        </button>
+
+        <!-- Output -->
+
+        <div id="output">
+
+            Location details will appear here.
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function findLocation() {
+
+            if(navigator.geolocation) {
+
+                navigator.geolocation.getCurrentPosition(
+
+                    showPosition,
+
+                    showError,
+
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 5000,
+                        maximumAge: 0
+                    }
+
+                );
+
+            }
+            else {
+
+                document.getElementById("output").innerHTML =
+                "Geolocation is not supported.";
+
+            }
+        }
+
+        /* Success */
+
+        function showPosition(position) {
+
+            document.getElementById("output").innerHTML =
+
+            "<h3>Your Location</h3>" +
+
+            "Latitude: " +
+            position.coords.latitude +
+
+            "<br><br>" +
+
+            "Longitude: " +
+            position.coords.longitude;
+
+        }
+
+        /* Error Handling */
+
+        function showError(error) {
+
+            switch(error.code) {
+
+                case error.PERMISSION_DENIED:
+
+                    document.getElementById("output").innerHTML =
+                    "User denied location access.";
+
+                    break;
+
+                case error.POSITION_UNAVAILABLE:
+
+                    document.getElementById("output").innerHTML =
+                    "Location information unavailable.";
+
+                    break;
+
+                case error.TIMEOUT:
+
+                    document.getElementById("output").innerHTML =
+                    "Request timed out.";
+
+                    break;
+
+                default:
+
+                    document.getElementById("output").innerHTML =
+                    "Unknown error occurred.";
+            }
+        }
+
+    </script>
+
+</body>
+</html>
