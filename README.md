@@ -11,7 +11,7 @@ This repository contains solutions and assessments completed as part of the Cogn
 * Bootstrap 5
 * JavaScript
 
- Module 2 – Database Programming### Module 2
+ Module 2 – Database Programming
 
 * ANSI SQL Using MySQL
 
