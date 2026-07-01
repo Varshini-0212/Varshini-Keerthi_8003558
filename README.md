@@ -1,35 +1,31 @@
-# Cognizant Digital Nurture 5.0 Upskilling
+# Cognizant Java Full Stack Engineer (FSE) 
 
-This repository contains solutions and assessments completed as part of the Cognizant Digital Nurture 5.0 Java FSE Upskilling Program.
+Welcome to my Java FSE learning repository.
 
-## Modules Completed
+This repository contains my solutions, hands-on exercises, mini projects, and assignments completed as part of the Cognizant Java Full Stack Engineer (FSE) Deepskilling Program.
 
- Module 1 – Frontend Development
-
-* HTML5
-* CSS3
-* Bootstrap 5
-* JavaScript
-
- Module 2 – Database Programming
-
-* ANSI SQL Using MySQL
-
- Module 3 – Core Java
-
-* Core Java
+---
 
 ## Repository Structure
 
 ```text
-Java FSE
-└── Upskilling
-    ├── Module 1-HTML 5
-    ├── Module 1-CSS3
-    ├── Module 1-Bootstrap5
-    ├── Module 1-JavaScript
-    ├── Module 2-ANSI SQL Using MySQL
-    └── Module 3-Core Java
+│
+├── Java FSE
+    ├── Deepskilling
+    |   ├── Module 1 - Design Patterns and Principles
+    |   ├── Module 2 - Data Structures and Algorithms
+    |   ├── Module 3 - PL/SQL Programming
+    |   ├── Module 4 - Test-Driven Development and Logging Framework
+    |   ├── Module 5 - Spring Core and Maven
+    |   └── Module 6 - Spring Data JPA with Spring Boot and Hibernate
+    |   └── Module 7 - Spring REST using Spring Boot 3
+    └── Upskilling     
+      ├── Module 1-HTML 5
+      ├── Module 1-CSS3
+      ├── Module 1-Bootstrap5
+      ├── Module 1-JavaScript
+      ├── Module 2-ANSI SQL Using MySQL
+      └── Module 3-Core Java
 ```
 
 ## Technologies Used
@@ -40,8 +36,18 @@ Java FSE
 * JavaScript
 * MySQL
 * Java
-* Git
-* GitHub
+- Spring Framework
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- REST APIs
+- JWT Authentication
+- Maven
+- Gradle
+- SQL
+- Git & GitHub
+
 
 ## Development Tools
 

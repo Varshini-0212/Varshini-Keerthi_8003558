@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Hands-on 5 -->
+    <bean id="country"
+          class="org.example.springresthandson.model.Country"
+          scope="prototype">
+        <property name="code" value="IN"/>
+        <property name="name" value="India"/>
+    </bean>
+
+    <!-- Hands-on 6 -->
+    <bean id="in" class="org.example.springresthandson.model.Country">
+        <property name="code" value="IN"/>
+        <property name="name" value="India"/>
+    </bean>
+
+    <bean id="us" class="org.example.springresthandson.model.Country">
+        <property name="code" value="US"/>
+        <property name="name" value="United States"/>
+    </bean>
+
+    <bean id="de" class="org.example.springresthandson.model.Country">
+        <property name="code" value="DE"/>
+        <property name="name" value="Germany"/>
+    </bean>
+
+    <bean id="jp" class="org.example.springresthandson.model.Country">
+        <property name="code" value="JP"/>
+        <property name="name" value="Japan"/>
+    </bean>
+
+    <bean id="countryList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="in"/>
+                <ref bean="us"/>
+                <ref bean="de"/>
+                <ref bean="jp"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>
