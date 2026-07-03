@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort Details Component should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Cohorts Details
+    </h1>
+    <div
+      class="box"
+    >
+      <h3
+        style="color: blue;"
+      >
+        INTADMDF10
+      </h3>
+      <dl>
+        <dt>
+          Technology
+        </dt>
+        <dd>
+          .NET FSD
+        </dd>
+        <dt>
+          Trainer
+        </dt>
+        <dd>
+          John
+        </dd>
+        <dt>
+          Coach
+        </dt>
+        <dd>
+          David
+        </dd>
+        <dt>
+          Status
+        </dt>
+        <dd>
+          Completed
+        </dd>
+      </dl>
+    </div>
+    <div
+      class="box"
+    >
+      <h3
+        style="color: green;"
+      >
+        ADM21JF014
+      </h3>
+      <dl>
+        <dt>
+          Technology
+        </dt>
+        <dd>
+          Java FSD
+        </dd>
+        <dt>
+          Trainer
+        </dt>
+        <dd>
+          Mary
+        </dd>
+        <dt>
+          Coach
+        </dt>
+        <dd>
+          Smith
+        </dd>
+        <dt>
+          Status
+        </dt>
+        <dd>
+          Ongoing
+        </dd>
+      </dl>
+    </div>
+    <div
+      class="box"
+    >
+      <h3
+        style="color: green;"
+      >
+        CDBJF21035
+      </h3>
+      <dl>
+        <dt>
+          Technology
+        </dt>
+        <dd>
+          Java FSD
+        </dd>
+        <dt>
+          Trainer
+        </dt>
+        <dd>
+          Robert
+        </dd>
+        <dt>
+          Coach
+        </dt>
+        <dd>
+          Alex
+        </dd>
+        <dt>
+          Status
+        </dt>
+        <dd>
+          Ongoing
+        </dd>
+      </dl>
+    </div>
+  </div>
+</DocumentFragment>
+`;

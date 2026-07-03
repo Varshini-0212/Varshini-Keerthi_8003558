@@ -1,0 +1,55 @@
+.App{
+
+  text-align:center;
+
+  margin-top:40px;
+
+  font-family:Arial;
+
+}
+
+.form-container{
+
+  width:400px;
+
+  margin:auto;
+
+  border:1px solid gray;
+
+  border-radius:10px;
+
+  padding:20px;
+
+}
+
+input{
+
+  width:90%;
+
+  padding:10px;
+
+  margin-top:5px;
+
+}
+
+button{
+
+  padding:10px 20px;
+
+  background:#1976D2;
+
+  color:white;
+
+  border:none;
+
+  cursor:pointer;
+
+  border-radius:5px;
+
+}
+
+button:hover{
+
+  background:#125aa0;
+
+}

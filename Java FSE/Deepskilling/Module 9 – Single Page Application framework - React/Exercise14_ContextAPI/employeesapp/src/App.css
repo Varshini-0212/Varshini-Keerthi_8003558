@@ -1,0 +1,43 @@
+.App{
+
+  text-align:center;
+
+  font-family:Arial;
+
+  margin-top:40px;
+
+}
+
+.card{
+
+  border:1px solid gray;
+
+  margin:20px auto;
+
+  padding:20px;
+
+  width:300px;
+
+  border-radius:10px;
+
+}
+
+.light{
+
+  background:white;
+
+  color:black;
+
+  padding:10px 20px;
+
+}
+
+.dark{
+
+  background:black;
+
+  color:white;
+
+  padding:10px 20px;
+
+}

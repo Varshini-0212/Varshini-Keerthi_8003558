@@ -1,0 +1,45 @@
+.App{
+
+  text-align:center;
+
+  margin-top:40px;
+
+  font-family:Arial;
+
+}
+
+table{
+
+  margin:auto;
+
+  border-collapse:collapse;
+
+}
+
+th{
+
+  background:#1976D2;
+
+  color:white;
+
+}
+
+th,td{
+
+  border:1px solid black;
+
+  padding:10px 20px;
+
+}
+
+button{
+
+  padding:10px 20px;
+
+  margin-top:20px;
+
+  cursor:pointer;
+
+  font-size:16px;
+
+}
