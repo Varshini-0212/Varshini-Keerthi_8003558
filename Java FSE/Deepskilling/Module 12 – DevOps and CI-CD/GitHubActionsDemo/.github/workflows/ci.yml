@@ -1,0 +1,19 @@
+name: GitHub Actions Demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Display Message
+        run: echo "Module 12 GitHub Actions workflow executed successfully!"
+
+      - name: List Files
+        run: ls -la
