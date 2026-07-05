@@ -1,21 +1,21 @@
-# IntelliJ
+# IntelliJ IDEA
 .idea/
-*.iml
 
-# Maven
-target/
-
-# Gradle
-.gradle/
-build/
-
-# Java
+# Java build files
 out/
 *.class
 
 # Logs
 *.log
 
-# OS
-.DS_Store
+# VS Code
+.vscode/
+
+# Windows
 Thumbs.db
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
