@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: mynginx-compose
+    ports:
+      - "8081:80"
